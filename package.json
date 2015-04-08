@@ -1,0 +1,23 @@
+{
+  "name": "under-maintenance",
+  "version": "1.0.0",
+  "description": "Application to handle traffic while your services are under maintenance",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjaczynski/under-maintenance.git"
+  },
+  "keywords": [
+    "maintenance",
+    "bluemix"
+  ],
+  "author": "Michel Jaczynski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjaczynski/under-maintenance/issues"
+  },
+  "homepage": "https://github.com/mjaczynski/under-maintenance"
+}

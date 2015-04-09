@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mjaczynski/under-maintenance/issues"
   },
-  "homepage": "https://github.com/mjaczynski/under-maintenance"
+  "homepage": "https://github.com/mjaczynski/under-maintenance",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
 }

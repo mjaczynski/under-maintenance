@@ -11,7 +11,7 @@ When using PaaS such as IBM Bluemix or other cloud services, it is easy to deplo
 Example
 -------
 
-`
+```
 var under_maintenance = require('under-maintenance');
 
 var appEnv   = cfenv.getAppEnv();
@@ -25,5 +25,5 @@ var app = under_maintenance({
 });
 
 app.listen(80);
-`
+```
 

@@ -1,6 +1,6 @@
 {
   "name": "under-maintenance",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Application to handle traffic while your services are under maintenance",
   "main": "index.js",
   "scripts": {

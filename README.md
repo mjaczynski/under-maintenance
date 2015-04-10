@@ -11,7 +11,7 @@ When using PaaS such as IBM Bluemix or other cloud services, it is easy to deplo
 Example
 -------
 
-In this following example, 2 REST services will return code 500 with a JSON message, and any other URL will be redirected to the `down.html` page.
+In this following example, 2 REST services will return code 500 with a JSON message, and any other URL will be redirected to the `down.html` page. All the following options are optional and the default will be used if not provided.
 
 ```
 var under_maintenance = require('under-maintenance');

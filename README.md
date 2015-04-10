@@ -25,6 +25,8 @@ var app = under_maintenance({
     page : 'down.html'
     	
 });
+
+app.listen(80);
 ```
 
 More About IBM Bluemix
@@ -38,6 +40,4 @@ Just use `cf push` to push to you environment and you can use `cf map-route` and
 
 
 
-app.listen(80);
-```
 

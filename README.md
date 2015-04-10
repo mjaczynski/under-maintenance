@@ -25,6 +25,7 @@ var app = under_maintenance({
     page : 'down.html'
     	
 });
+```
 
 More About IBM Bluemix
 ----------------------

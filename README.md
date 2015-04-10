@@ -11,6 +11,8 @@ When using PaaS such as IBM Bluemix or other cloud services, it is easy to deplo
 Example
 -------
 
+In this following example, 2 REST services will return code 500 with a JSON message, and any other URL will be redirected to the `down.html` page.
+
 ```
 var under_maintenance = require('under-maintenance');
 
@@ -23,6 +25,17 @@ var app = under_maintenance({
     page : 'down.html'
     	
 });
+
+More About IBM Bluemix
+----------------------
+
+You will also find a full example ready for Bluemix in this githib repository.
+[https://github.com/mjaczynski/under-maintenance-example](https://github.com/mjaczynski/under-maintenance-example)
+
+Just use `cf push` to push to you environment and you can use `cf map-route` and `cf unmap-route` to redirect temporarily the traffic to this app 
+
+
+
 
 app.listen(80);
 ```

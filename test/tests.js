@@ -1,6 +1,0 @@
-
-
-it ('simple test', function(){
-	
-	
-})

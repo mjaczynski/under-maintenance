@@ -30,10 +30,10 @@ app.listen(80);
 More About IBM Bluemix
 ----------------------
 
-You will also find a full example ready for Bluemix in this githib repository.
+You will also find a full example ready for Bluemix in this github repository.
 [https://github.com/mjaczynski/under-maintenance-example](https://github.com/mjaczynski/under-maintenance-example)
 
-Just use `cf push` to push to you environment and you can use `cf map-route` and `cf unmap-route` to redirect temporarily the traffic to this app 
+Just use `cf push` to push to you environment and you can use `cf map-route` and `cf unmap-route` to redirect temporarily the traffic to this app.
 
 
 
